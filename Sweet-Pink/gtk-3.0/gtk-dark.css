@@ -2769,10 +2769,10 @@ menubar,
 
 menu, .menu, .context-menu {
   font: initial;
-  margin: 4px;
-  padding: 2px 0px;
-  background: linear-gradient(to bottom, #1e2327, #16191b);
-  border: 1px solid #0a0c0d;
+  margin: 0;
+  padding: 6px 0px;
+  background: #1A1E21;
+  border: 0;
   border-radius: 5px; }
   .csd menu,
   .csd .menu,
@@ -4133,7 +4133,7 @@ switch {
   outline-offset: -4px;
   transition: all 200ms ease-in;
   border: none;
-  border-radius: 14px;
+  border-radius: 5px;
   color: transparent;
   padding: 2.3px 0px;
   background: linear-gradient(to right, #0e1011, #0e1011);
@@ -6308,5 +6308,174 @@ ConversationListView {
     border-radius: 0;
     text-shadow: none;
     box-shadow: none; }
+
+/* Modern rounded controls and spacious containers. */
+button,
+button.flat,
+button.suggested-action,
+button.destructive-action,
+.button {
+  min-height: 30px;
+  padding: 4px 16px;
+  border-radius: 999px;
+}
+
+entry,
+spinbutton,
+combobox > box > button.combo,
+searchbar,
+.search-bar {
+  min-height: 30px;
+  padding: 6px 12px;
+  border-radius: 12px;
+}
+
+switch,
+scale trough,
+scale highlight,
+progressbar trough,
+progressbar progress,
+scrollbar trough,
+scrollbar slider {
+  border-radius: 999px;
+}
+
+menu,
+popover,
+.popover,
+.app-notification,
+.dialog-action-area,
+headerbar,
+.titlebar,
+.action-bar {
+  border-radius: 5px;
+}
+
+menu,
+.menu,
+.context-menu,
+.csd menu,
+.csd .menu,
+.csd .context-menu,
+popover.menu,
+popover.menu > contents,
+popover.menu > arrow {
+  margin: 0 !important;
+  padding: 6px !important;
+  background: #1A1E21 !important;
+  background-color: #1A1E21 !important;
+  background-image: none !important;
+  border: 0 !important;
+  border-width: 0 !important;
+  border-style: none !important;
+  border-color: transparent !important;
+  border-radius: 5px !important;
+  box-shadow: none !important;
+}
+
+menu menuitem,
+.menu menuitem,
+.context-menu menuitem,
+menu menuitem:hover,
+.menu menuitem:hover,
+.context-menu menuitem:hover {
+  margin: 2px 0 !important;
+  padding: 7px 12px !important;
+  min-height: 17px !important;
+  border: 0 !important;
+  border-width: 0 !important;
+  border-radius: 999px !important;
+  box-shadow: none !important;
+  background-image: none !important;
+}
+
+menu menuitem,
+.menu menuitem,
+.context-menu menuitem {
+  background-color: #1A1E21 !important;
+}
+
+.csd.popup decoration,
+.popup decoration,
+window.csd.popup decoration,
+window.popup decoration {
+  border: 0 !important;
+  border-width: 0 !important;
+  border-radius: 5px !important;
+  box-shadow: none !important;
+}
+
+popover,
+popover contents,
+popover.background,
+menu,
+.menu,
+menuitem,
+.menuitem {
+  background-color: #1A1E21;
+  border: 0;
+  box-shadow: none;
+}
+
+menu,
+.menu {
+  padding: 6px;
+  border-radius: 5px;
+}
+
+menuitem,
+.menuitem,
+menu menuitem,
+.menu menuitem {
+  margin: 2px 0;
+  padding: 7px 12px;
+  border-radius: 999px;
+}
+
+menuitem:selected,
+.menuitem:selected,
+menu menuitem:selected,
+.menu menuitem:selected {
+  border-radius: 999px;
+  background-color: #F4A6C1;
+  color: #f7f7f7;
+}
+
+menuitem,
+popover button,
+.dialog-action-area button {
+  padding: 5px 12px;
+  border-radius: 10px;
+}
+
+notebook > header,
+notebook > header > tabs > tab {
+  border-radius: 12px;
+}
+
+/* Remove every border/frame around GTK context menus. */
+menu,
+menu *,
+.menu,
+.menu *,
+.context-menu,
+.context-menu *,
+popover.menu,
+popover.menu *,
+.csd.popup,
+.csd.popup *,
+.popup,
+.popup *,
+window.csd.popup,
+window.csd.popup *,
+window.popup,
+window.popup * {
+  border: 0 !important;
+  border-width: 0 !important;
+  border-style: none !important;
+  border-color: transparent !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
+}
 
 /*# sourceMappingURL=gtk-dark.css.map */

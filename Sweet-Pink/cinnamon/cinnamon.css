@@ -304,8 +304,8 @@ StScrollBar {
 
 .popup-menu-boxpointer {
   -arrow-border-radius: 3px;
-  -arrow-background-color: rgba(0, 0, 0, 0);
-  -arrow-border-width: 1px;
+  -arrow-background-color: #0f1113;
+  -arrow-border-width: 0;
   -arrow-border-color: rgba(0, 0, 0, 0);
   -arrow-base: 0;
   -arrow-rise: 0; }
@@ -1771,6 +1771,159 @@ StScrollBar {
 
 .panel-right .grouped-window-list-item-box .progress {
   border-radius: 4px 0 0 4px;
+}
+
+/* Modern rounded controls and spacious containers. */
+.notification-button,
+.notification-icon-button,
+.modal-dialog-button,
+.sound-button {
+  min-height: 28px;
+  padding: 4px 18px;
+  border-radius: 999px !important;
+}
+
+.menu #notification .notification-button,
+.menu #notification .notification-icon-button,
+.popup-menu #notification .notification-button,
+.popup-menu #notification .notification-icon-button,
+.sound-button {
+  min-height: 28px;
+  padding: 4px 18px;
+  border-radius: 999px !important;
+}
+
+.menu,
+.popup-menu,
+.modal-dialog,
+.calendar {
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.popup-menu-item,
+.menu-category-button,
+.menu-application-button,
+.menu-favorites-button {
+  padding: 5px 10px;
+  border-radius: 999px !important;
+}
+
+.menu,
+.popup-menu,
+.popup-combo-menu {
+  background-color: #0f1113 !important;
+  border-radius: 5px !important;
+  border: 0 !important;
+}
+
+.popup-menu-boxpointer,
+.popup-menu-boxpointer .popup-menu,
+.popup-menu-boxpointer .menu {
+  background-color: #0f1113 !important;
+  border: 0 !important;
+  box-shadow: none !important;
+  -arrow-border-width: 0 !important;
+  -arrow-border-color: rgba(0, 0, 0, 0) !important;
+  -arrow-background-color: #0f1113 !important;
+  -boxpointer-gap: 0 !important;
+}
+
+.menu .popup-menu-content,
+.popup-menu .popup-menu-content,
+.popup-combo-menu .popup-menu-content {
+  padding: 6px 0 !important;
+}
+
+.menu .popup-menu-item,
+.popup-menu .popup-menu-item,
+.popup-combo-menu .popup-menu-item {
+  margin: 2px 4px !important;
+  padding: 7px 12px !important;
+  background: none !important;
+  background-color: #0f1113 !important;
+  border: 0 !important;
+  border-radius: 999px !important;
+  box-shadow: none !important;
+}
+
+.menu .popup-menu-item:active,
+.popup-menu .popup-menu-item:active,
+.popup-combo-menu .popup-menu-item:active,
+.menu .popup-menu-item:hover,
+.popup-menu .popup-menu-item:hover,
+.popup-combo-menu .popup-menu-item:hover {
+  background-color: #F4A6C1 !important;
+  border: 0 !important;
+  border-radius: 999px !important;
+  box-shadow: none !important;
+}
+
+.menu .popup-menu-item,
+.popup-menu .popup-menu-item,
+.popup-combo-menu .popup-menu-item,
+.menu .popup-menu-item:active,
+.popup-menu .popup-menu-item:active,
+.popup-combo-menu .popup-menu-item:active,
+.menu .popup-menu-item:hover,
+.popup-menu .popup-menu-item:hover,
+.popup-combo-menu .popup-menu-item:hover {
+  margin: 2px 4px;
+  padding: 7px 12px;
+  border-radius: 999px !important;
+}
+
+.menu #notification StEntry,
+.popup-menu #notification StEntry,
+#menu-search-entry,
+.notification StEntry,
+.run-dialog-entry {
+  padding: 6px 12px;
+  border-radius: 12px;
+}
+
+.menu-application-button,
+.menu-application-button:hover,
+.menu-application-button:focus,
+.menu-application-button-selected,
+.menu-application-button-selected:hover,
+.menu-application-button-selected:focus,
+.menu-category-button,
+.menu-category-button:hover,
+.menu-category-button:focus,
+.menu-category-button-selected,
+.menu-category-button-selected:hover,
+.menu-category-button-selected:focus,
+.menu-category-button-hover,
+.menu-favorites-button,
+.menu-favorites-button:hover,
+.menu-favorites-button:focus,
+.menu-favorites-button-selected,
+.menu-favorites-button-selected:hover,
+.menu-favorites-button-selected:focus {
+  padding: 5px 10px;
+  border-radius: 999px !important;
+}
+
+#menu-search-entry,
+#menu-search-entry:hover,
+#menu-search-entry:focus,
+#menu-search-entry:insensitive {
+  padding: 6px 12px;
+  border-radius: 999px !important;
+}
+
+.popup-slider-menu-item,
+.slider,
+StScrollBar StButton#vhandle,
+StScrollBar StButton#hhandle {
+  border-radius: 999px;
+}
+
+.grouped-window-list-preview,
+.window-list-preview,
+.tile-hud {
+  border-radius: 14px;
 }
 
 .sound-player StButton {
