@@ -1780,7 +1780,7 @@ StScrollBar {
 .sound-button {
   min-height: 28px;
   padding: 4px 18px;
-  border-radius: 999px !important;
+  border-radius: 14px !important;
 }
 
 .menu #notification .notification-button,
@@ -1790,7 +1790,7 @@ StScrollBar {
 .sound-button {
   min-height: 28px;
   padding: 4px 18px;
-  border-radius: 999px !important;
+  border-radius: 14px !important;
 }
 
 .menu,
@@ -1806,7 +1806,7 @@ StScrollBar {
 .menu-application-button,
 .menu-favorites-button {
   padding: 5px 10px;
-  border-radius: 999px !important;
+  border-radius: 14px !important;
 }
 
 .menu,
@@ -1843,7 +1843,7 @@ StScrollBar {
   background: none !important;
   background-color: #0f1113 !important;
   border: 0 !important;
-  border-radius: 999px !important;
+  border-radius: 14px !important;
   box-shadow: none !important;
 }
 
@@ -1855,7 +1855,7 @@ StScrollBar {
 .popup-combo-menu .popup-menu-item:hover {
   background-color: #F4A6C1 !important;
   border: 0 !important;
-  border-radius: 999px !important;
+  border-radius: 14px !important;
   box-shadow: none !important;
 }
 
@@ -1870,7 +1870,7 @@ StScrollBar {
 .popup-combo-menu .popup-menu-item:hover {
   margin: 2px 4px;
   padding: 7px 12px;
-  border-radius: 999px !important;
+  border-radius: 14px !important;
 }
 
 .menu #notification StEntry,
@@ -1902,7 +1902,7 @@ StScrollBar {
 .menu-favorites-button-selected:hover,
 .menu-favorites-button-selected:focus {
   padding: 5px 10px;
-  border-radius: 999px !important;
+  border-radius: 14px !important;
 }
 
 #menu-search-entry,
@@ -1910,14 +1910,14 @@ StScrollBar {
 #menu-search-entry:focus,
 #menu-search-entry:insensitive {
   padding: 6px 12px;
-  border-radius: 999px !important;
+  border-radius: 14px !important;
 }
 
 .popup-slider-menu-item,
 .slider,
 StScrollBar StButton#vhandle,
 StScrollBar StButton#hhandle {
-  border-radius: 999px;
+  border-radius: 14px !important;
 }
 
 .grouped-window-list-preview,

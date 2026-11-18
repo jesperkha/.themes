@@ -6317,7 +6317,7 @@ button.destructive-action,
 .button {
   min-height: 30px;
   padding: 4px 16px;
-  border-radius: 999px;
+  border-radius: 14px !important;
 }
 
 entry,
@@ -6337,7 +6337,7 @@ progressbar trough,
 progressbar progress,
 scrollbar trough,
 scrollbar slider {
-  border-radius: 999px;
+  border-radius: 14px !important;
 }
 
 menu,
@@ -6384,7 +6384,7 @@ menu menuitem:hover,
   min-height: 17px !important;
   border: 0 !important;
   border-width: 0 !important;
-  border-radius: 999px !important;
+  border-radius: 14px !important;
   box-shadow: none !important;
   background-image: none !important;
 }
@@ -6429,14 +6429,14 @@ menu menuitem,
 .menu menuitem {
   margin: 2px 0;
   padding: 7px 12px;
-  border-radius: 999px;
+  border-radius: 14px !important;
 }
 
 menuitem:selected,
 .menuitem:selected,
 menu menuitem:selected,
 .menu menuitem:selected {
-  border-radius: 999px;
+  border-radius: 14px !important;
   background-color: #F4A6C1;
   color: #f7f7f7;
 }
